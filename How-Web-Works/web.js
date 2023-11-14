@@ -34,7 +34,7 @@ In your own terms, define the following terms:
 ## ****Part Two: Practice Tools****
 
 1. Using ***curl***, make a ***GET*** request to the *icanhazdadjoke.com* API to find all jokes involving the word “pirate”
-    curl -H "Accept: application/json" "https://icanhazdadjoke.com/search?term=pirate
+    curl "https://icanhazdadjoke.com/search?term=pirate
     "What did the pirate say on his 80th birthday? Aye Matey!"
 
 2. Use ***dig*** to find what the IP address is for *icanhazdadjoke.com*
