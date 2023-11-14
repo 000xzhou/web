@@ -34,6 +34,28 @@ In your own terms, define the following terms:
 ## ****Part Two: Practice Tools****
 
 1. Using ***curl***, make a ***GET*** request to the *icanhazdadjoke.com* API to find all jokes involving the word “pirate”
+    curl -H "Accept: application/json" "https://icanhazdadjoke.com/search?term=pirate
+    "What did the pirate say on his 80th birthday? Aye Matey!"
+
 2. Use ***dig*** to find what the IP address is for *icanhazdadjoke.com*
+    curl -v icanhazdadjoke.com  
+    Connected to icanhazdadjoke.com (2606:4700:3033::6815:420f) port 80
 3. Make a simple web page and serve it using ***python3 -m http.server***. Visit the page in a browser.
+ */
+
+/**
+## **Part Three: Explore Dev Tools**
+
+Build a very simple HTML form that uses the GET method (it can use the same page URL for the action) when the form is submitted.
+    getInput=cat
+    It added ? name = value   after the url
+
+
+Add a field or two to the form and, after submitting it, explore in Chrome Developer tools how you can view the request and response headers.
+
+
+Edit the page to change the form type to POST, refresh in the browser and re-submit. Do you still see the field in the query string? Explore in Chrome how you can view the request and response headers, as well as the form data.
+    it did give me a 405 
+
+
  */
